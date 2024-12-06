@@ -13,7 +13,7 @@ env:
   MONGO_PASSWORD: ${{secrets.MONGO_PASSWORD}}
     
 jobs:
-    unit-testing:
+    unit_testing:
         name: unit_testing
         runs-on: ubuntu-latest
         steps:
