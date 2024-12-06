@@ -90,7 +90,7 @@ jobs:
      needs: docker
      runs-on: ubuntu-latest
      steps:
-     - uses: actions/ckeckout@v4
+     - uses: actions/checkout@v4
      - name: Install kubectl CLI
        uses: azure/setup-kubectl@v4
        with:
